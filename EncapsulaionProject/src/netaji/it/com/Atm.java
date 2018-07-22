@@ -14,7 +14,7 @@ public class Atm {
 		else {
 			
 		this.balance=balance;
-		System.out.println("CURRENT BALANCE IS::"+balance);
+		System.out.println("AVAILABLE BALANCE::"+balance);
 		}
 	}
 	double getBalance() {
@@ -57,6 +57,6 @@ class AllAtmDetails{
 		atm.setDiposit(0);
 		System.out.println("TOTAL BALANCE IS::"+atm.getDiposit());
 		atm.setWithdraw(0);
-		System.out.println("TOTAL BALANCE IS::"+atm.getWithdraw());
+		System.out.println("AVAILABLE BALANCE IS::"+atm.getWithdraw());
 	}
 }
